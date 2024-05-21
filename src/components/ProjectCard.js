@@ -1,6 +1,3 @@
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
-
 export const ProjectCard = ({title, description, imgUrl}) => {
 
     return(
