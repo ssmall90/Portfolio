@@ -66,7 +66,7 @@ export const Banner = () => {
                         <button className="connect-button" onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/> </button>
                     </Row>
                     <Row xs={12} md={6} xl={5}>
-                        <img src={headerimg} alt="header-image" />
+                        <img src={headerimg} alt="header" />
                     </Row>
                 </Col>
             </Container>
