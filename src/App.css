@@ -437,6 +437,7 @@ margin: 0 auto 15px auto;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+
 }
 .proj-imgbx::before {
   content: "";
@@ -490,6 +491,30 @@ margin: 0 auto 15px auto;
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+/* Contact */
+.contact .form-img{
+  width: 75%;
+}
+
+.contact .form-imgbx{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact .form-btn{
+  padding: 10px;
+  background-color: #4A2FBD;
+  margin-top: 10px;
+  width: 50%;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #AA367C,#4A2FBD);
+}
+
+.contact .form-btn span{
+  color: #fff;
+  font-size: 1.2em;
 }
 
 /* Standard Styles */

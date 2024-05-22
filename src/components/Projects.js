@@ -8,6 +8,7 @@ import colourSharp2 from "../assests/img/color-sharp2.png"
 import projImg1 from "../assests/img/project-img1.png"
 import projImg2 from "../assests/img/project-img2.png"
 import projImg3 from "../assests/img/project-img3.png"
+import projImg4 from "../assests/img/project-img4.png"
 
 export const Projects = () => {
   const projects = [
@@ -33,7 +34,7 @@ export const Projects = () => {
       title: "Student Supervision App",
       description:
         "A .Net Blazor server which enables students and their personal supervisors connect better. ",
-      imgUrl: projImg3,
+      imgUrl: projImg4,
     },
   ];
 
@@ -52,7 +53,7 @@ export const Projects = () => {
               </Nav>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
-                  <Col md={2} sm={1} className="">
+                  <Col md={2} sm={1} xl={4}>
                     {projects.map((project, index) => {
                         return(
                             <ProjectCard key={index} {...project} />
