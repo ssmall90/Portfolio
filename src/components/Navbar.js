@@ -2,10 +2,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {useEffect, useState} from "react"
-import logo from "../assests/img/logo.svg";
+import logo from "../assests/img/logo.png";
 import navIcon1 from "../assests/img/nav-icon1.svg";
 import navIcon2 from "../assests/img/nav-icon2.svg";
-import navIcon3 from "../assests/img/nav-icon3.svg";
+
 
 
 
@@ -46,12 +46,11 @@ export const NavBar = () => {
           </Nav>
           <span className='navbar-text'>
             <div className='social-icon'>
-                <a href='#contact'><img src={navIcon1} alt="instagram"/></a>
-                <a href='#contact'><img src={navIcon2} alt="instagram"/></a>
-                <a href='#contact'><img src={navIcon3} alt="instagram"/></a>
+                <a href='https://www.linkedin.com/in/sheldon-small-373003224/'><img src={navIcon1} alt="instagram"/></a>
+                <a href='https://github.com/ssmall90'><img src={navIcon2} alt="instagram"/></a>
             </div>
-            <button className='vvd' onClick={() => console.log("connect")}>
-                <span>Let's Connect</span>
+            <button className='vvd'>
+                <span><a href='#connect'> Let's Connect</a></span>
             </button>
           </span>
         </Navbar.Collapse>

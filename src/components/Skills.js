@@ -39,7 +39,7 @@ export const Skills = () => {
                         Skills
                     </h2>
                     <p>
-                        put some form of description here
+                        A collection of skills I have obtained and continue to improve.
                     </p>
                     <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                         <div className='item'>

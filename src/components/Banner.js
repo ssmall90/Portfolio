@@ -63,7 +63,7 @@ export const Banner = () => {
                         and MongoDB, I specialize in both front-end and back-end
                         development.
                         </p>
-                        <button className="connect-button" onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/> </button>
+                        <button className="connect-button" ><a href="#connect">Let's Connect</a><ArrowRightCircle size={25}/> </button>
                     </Row>
                     <Row xs={12} md={6} xl={5}>
                         <img src={headerimg} alt="header" />

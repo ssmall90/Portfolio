@@ -1,4 +1,5 @@
 /*Custom Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 @font-face {
   font-family: Centara;
@@ -119,8 +120,8 @@ span.navbar-text {
     margin-left: 14px;
 }
 .social-icon a {
-    width: 42px;
-    height: 42px;
+    width: 52px;
+    height: 52px;
     background: rgba(217, 217, 217, 0.1);
     display: inline-flex;
     border-radius: 50%;
@@ -132,8 +133,8 @@ span.navbar-text {
 }
 .social-icon a::before {
     content: "";
-    width: 42px;
-    height: 42px;
+    width: 52px;
+    height: 52px;
     position: absolute;
     background-color: #ffffff;
     border-radius: 50%;
@@ -144,7 +145,7 @@ span.navbar-text {
     transform: scale(1);
 }
 .social-icon a img {
-	width: 40%;
+	width: 50%;
 	z-index: 1;
 	transition: 0.3s ease-in-out;
 }
@@ -162,6 +163,17 @@ span.navbar-text {
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
 }
+
+.navbar button a{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar button:hover a{
+  color: #121212;
+}
+
+
 .navbar-text button span {
   z-index: 1;
 }
@@ -229,6 +241,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
+}
+
+.git-logo{
+  width: 100px;
 }
 
 /*Banner*/
@@ -309,6 +325,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+
+.banner button a{
+  text-decoration: none;
+  color: white;
+}
+
+.banner .wrap{
+  
+  font-family: "Permanent Marker", cursive;
 }
 
 /*Skills */
@@ -561,6 +587,10 @@ footer .sep-line{
   background-color:#4A2FBD;
   background-image: linear-gradient(to left, #4A2fBD, purple);
   transform: translateX(2.5%);
+}
+
+footer .imgbox img{
+  max-height: 100px;
 }
 
 
