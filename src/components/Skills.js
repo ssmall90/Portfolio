@@ -4,15 +4,15 @@ import Row from "react-bootstrap/Col"
 import Col from "react-bootstrap/Row"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assests/img/meter1.svg"
-import meter2 from "../assests/img/meter2.svg"
-import meter3 from "../assests/img/meter3.svg"
+import meter80 from "../assests/img/meter80.svg"
+import meter90 from "../assests/img/meter90.svg"
+import meter75 from "../assests/img/meter75.svg"
+import meter60 from "../assests/img/meter60.svg"
 import colourSharp from "../assests/img/color-sharp.png"
 
 export const Skills = () => {
     const responsive = {
         superLargeDesktop: {
-          // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 3000 },
           items: 5
         },
@@ -43,20 +43,24 @@ export const Skills = () => {
                     </p>
                     <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                         <div className='item'>
-                            <img src={meter1} alt='' />
+                            <img src={meter90} alt='' />
                             <h5>Web Development</h5>
                         </div>
                         <div className='item'>
-                            <img src={meter2} alt='' />
+                            <img src={meter75} alt='' />
                             <h5>Cloud Engineer</h5>
                         </div>
                         <div className='item'>
-                            <img src={meter3} alt='' />
+                            <img src={meter80} alt='' />
                             <h5>UI UX Design</h5>
                         </div>
                         <div className='item'>
-                            <img src={meter1} alt='' />
+                            <img src={meter80} alt='' />
                             <h5>Advanced Programming</h5>
+                        </div>
+                        <div className='item'>
+                            <img src={meter60} alt='' />
+                            <h5>SQL</h5>
                         </div>
                     </Carousel>
 

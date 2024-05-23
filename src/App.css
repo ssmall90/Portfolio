@@ -346,7 +346,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-slider .item img{
-width: 50%;
+width: 60%;
 margin: 0 auto 15px auto;
 }
 
@@ -493,6 +493,11 @@ margin: 0 auto 15px auto;
   z-index: -4;
 }
 
+.project .coming-soon-bx{
+  width: 100%;
+  margin-top: 20px;
+}
+
 /* Contact */
 .contact .form-img{
   width: 75%;
@@ -516,6 +521,49 @@ margin: 0 auto 15px auto;
   color: #fff;
   font-size: 1.2em;
 }
+
+.contact input, textarea{
+  background-color: transparent;
+  border: #fff solid 2px;
+  height: 50px;
+  margin-bottom: 5px;
+  color: #fff;
+
+}
+
+.contact input::placeholder, textarea::placeholder{
+  color: #fff;
+}
+
+.contact textarea{
+  max-height: 100px;
+  min-height: 100px;
+  margin-bottom: 40px;
+}
+
+.contact .container{
+  margin-bottom: 50px;
+}
+
+/* Footer */
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer .sep-line{
+  width: 95%;
+  height: 3px;
+  background-color:#4A2FBD;
+  background-image: linear-gradient(to left, #4A2fBD, purple);
+  transform: translateX(2.5%);
+}
+
+
 
 /* Standard Styles */
 .App {
