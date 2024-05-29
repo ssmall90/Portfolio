@@ -250,7 +250,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*Banner*/
 
 .banner{
-  padding: 250px 0 100px 0;
+  padding: 150px 0 100px 0;
   margin-top: 0;
   background-image: url('./assests/img/paris.jpg');
   background-position: top center;
