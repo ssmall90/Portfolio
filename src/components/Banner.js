@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import Lottie from "lottie-react";
 import Container from "react-bootstrap/Container";
-import headerimg from "../assests/img/header-img.svg";
 import headerimg1 from "../assests/img/headerimg.json";
 import Row from "react-bootstrap/Col";
 import Col from "react-bootstrap/Row";
