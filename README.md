@@ -15,7 +15,7 @@ Welcome to my Portfolio! This React application allows you to explore my persona
   
 ## Hosting
 
-My Portfolio Explorer app is hosted on Vercel. You can access it at [portfolio-blue-ten-35.vercel.app](https://portfolio-blue-ten-35.vercel.app/).
+My Portfolio is hosted on Vercel. You can access it at [portfolio-blue-ten-35.vercel.app](https://portfolio-blue-ten-35.vercel.app/).
 
 ## Contributing
 
